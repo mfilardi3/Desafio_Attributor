@@ -4,7 +4,7 @@
 
 <h1><b>Criando o projeto</b></h1>
 
-1. Clique em <b>criar novo projeto</b> ao abrir o Visual Studio
+1.Clique em <b>criar novo projeto</b> ao abrir o Visual Studio
 
 2.Insisa ASP.NET na tabela de pesquisa e escolha C# na linguagem de programação
 
