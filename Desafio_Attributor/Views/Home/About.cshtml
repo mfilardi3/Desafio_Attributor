@@ -1,7 +1,21 @@
-﻿@{
-    ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿<!--Css da view About-->
+<link href="~/App_Themes/Tema2/StyleSheet3.css" rel="stylesheet" />
 
-<p>Use this area to provide additional information.</p>
+<!--Mostra o Titulo da página-->
+<div ="title">
+    @{
+        ViewBag.Title = "Attributor";
+    }
+</div>
+
+<!--Controlador Home passa a mensagem para a View-->
+<div ="subtitle">
+    <h3 class="subtitle">@ViewBag.Message</h3>
+</div>
+
+<!--Descrição da empresa-->
+<p class="description">
+    Estima-se que 95% das empresas do Simples Nacional pagam mais impostos do que deveriam, e a sua provavelmente é uma delas.
+
+    Pensando nisso, criamos uma plataforma altamente eficiente, capaz de processar um alto volume de dados, cruzar milhares de informações e regras fiscais e avaliar se os impostos pagos pela sua empresa nos últimos 5 anos estão corretos.
+</p>

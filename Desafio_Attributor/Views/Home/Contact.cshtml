@@ -1,17 +1,21 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿<!--Arquivo css da view Contact-->
+<link href="~/App_Themes/Tema2/Contact.css" rel="stylesheet" />
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<!--Passando o titulo para a view-->
+<div class="title">
+    @{
+        ViewBag.Title = "Info";
+    }
+</div>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<!--Informações do desenvolvedor-->
+<div class="dev">
+    <img src="http://media.hollywood.com/images/l/Drew-Struzan-et.jpg" alt="Avatar" class="avatar" />
+    <h1>Marcelle Manhães Gaio Filardi</h1>
+    <p class="grad">3° ano - Engenharia de Computação</p>
+</div>
+
+<!--Botão para o GitHub-->
+<div class="button">
+    <button type="button" class="btn btn btn-lg" id="github" onclick="location.href = 'https://github.com/mfilardi3/Desafio_Attributor';">GitHub</button>
+</div>

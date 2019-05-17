@@ -1,14 +1,17 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    <link href="~/App_Themes/Tema1/StyleSheet1.css" rel="stylesheet" type="text/css" / >
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Titulo da Página-->
+    <title>@ViewBag.Title</title>
+    <!--Chamada de arquivos css-->
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-</head>
-<body>
+    <!--Barra de navegação-->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -17,25 +20,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Início", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+                    <img class="logo" src="https://attributor.com.br/wp-content/uploads/2018/12/logo.png"/>
+                    <li>@Html.ActionLink("Desafio", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Sobre a empresa", "About", "Home")</li>
+                    <li>@Html.ActionLink("Informações do projeto", "Contact", "Home")</li>
                 </ul>
             </div>
         </div>
     </div>
+</head>
+<br />
+<body>
+    <!--Corpo da Página/Chamada da View-->
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
-        </footer>
     </div>
-
+    <!--Agrupamento dos scripts-->
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
