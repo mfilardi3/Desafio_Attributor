@@ -53,9 +53,6 @@ Responsável pela exibição de dados .
 
 <h2>Controller</h2>
 Recebe as requisições do usuário controlando qual Model usar e qual view será mostrado ao usuário.
-1. Add Controller 
-
-2.Nomeie seu controlador
 
 <h2>Model</h2>
 Responsável pela leitura, escrita e validação dos dados 
