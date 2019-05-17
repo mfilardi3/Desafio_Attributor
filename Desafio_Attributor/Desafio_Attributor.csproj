@@ -137,7 +137,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Models\Infos.cs" />
+=======
+    <Compile Include="obj\Info.cs" />
+>>>>>>> 98bc74e3443369b4f6a11db87ee09baa2e3bb690
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
