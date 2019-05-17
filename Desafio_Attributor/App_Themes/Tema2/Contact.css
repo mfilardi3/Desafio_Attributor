@@ -21,6 +21,10 @@
 .avatar {
     vertical-align: middle;
     width: 120px;
-    length: 120px;
     border-radius: 50vw;
+}
+
+/* Informações */
+.infos {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

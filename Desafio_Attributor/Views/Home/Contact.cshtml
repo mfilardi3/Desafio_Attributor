@@ -1,4 +1,5 @@
-﻿<!--Arquivo css da view Contact-->
+﻿@model Desafio_Attributor.Models.Infos
+<!--Arquivo css da view Contact-->
 <link href="~/App_Themes/Tema2/Contact.css" rel="stylesheet" />
 
 <!--Passando o titulo para a view-->
@@ -13,6 +14,11 @@
     <img src="http://media.hollywood.com/images/l/Drew-Struzan-et.jpg" alt="Avatar" class="avatar" />
     <h1>Marcelle Manhães Gaio Filardi</h1>
     <p class="grad">3° ano - Engenharia de Computação</p>
+</div>
+
+<div class="infos">
+    <h3>Faculdade: @Model.Faculdade </h3>
+    <h3>Empresa: @Model.Empresa </h3>
 </div>
 
 <!--Botão para o GitHub-->

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Desafio_Attributor.Models;
 
 namespace Desafio_Attributor.Controllers
 {
@@ -23,7 +24,11 @@ namespace Desafio_Attributor.Controllers
 
         public ActionResult Contact()
         {
-            return View(); //retorna exibição da view Contact
+            Infos obj = new Infos();
+            obj.Faculdade = "IME";
+            obj.Empresa = "Attributor";
+
+            return View(obj); //retorna exibição da view Contact
         }
     }
 }
