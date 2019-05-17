@@ -43,3 +43,19 @@
 Obs: Caso haja mudanças no repositório que não estão no seu arquivo é preciso usar o <b>git pull</b>
 
 <code>$ git pull</code>
+
+<h1><b>Codificando</h1></b>
+<h2>Aplicações MVC:</h2>
+<img src="https://cdn-images-1.medium.com/max/1600/1*1qspMILbe0d48nq4sEhKLQ.png">
+É uma arquitetura para implementar a interface do usuário.
+<h2>View</h2>
+Responsável pela exibição de dados .
+
+<h2>Controller</h2>
+Recebe as requisições do usuário controlando qual Model usar e qual view será mostrado ao usuário.
+1. Add Controller 
+
+2.Nomeie seu controlador
+
+<h2>Model</h2>
+Responsável pela leitura, escrita e validação dos dados 
