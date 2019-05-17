@@ -1,0 +1,8 @@
+﻿/* Css da Home */
+
+/* Box Hello World */
+.jumbotron {
+    background-color: aliceblue;
+    margin-top: 14vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

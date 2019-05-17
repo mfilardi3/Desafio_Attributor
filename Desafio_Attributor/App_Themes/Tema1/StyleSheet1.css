@@ -1,0 +1,23 @@
+﻿/* Css index */
+
+/* Conteúdo da página */
+.container {
+    text-align: center;
+}
+
+/* Barra de navegação */
+.navbar-inverse {
+    background-color: #483D8B !important;
+    position: relative;
+}
+
+/* Link selecionado */
+li:active {
+    background-color: #4B0082 !important;
+}
+
+/* Logo da empresa */
+.logo {
+    position: absolute;
+    margin-left: -27vw;
+}

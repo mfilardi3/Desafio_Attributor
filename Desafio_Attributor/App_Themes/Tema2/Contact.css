@@ -1,0 +1,26 @@
+﻿/* Css da view Contact */
+
+/* Dev info */
+.dev {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10vw;
+}
+
+/* Graduação info */
+.grad {
+    font-size: 20px;
+}
+
+/* Botão para o github */
+#github {
+    background-color: #483D8B !important;
+    color: #fff;
+}
+
+/* Foto de avatar */
+.avatar {
+    vertical-align: middle;
+    width: 120px;
+    length: 120px;
+    border-radius: 50vw;
+}
